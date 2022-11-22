@@ -11,7 +11,7 @@ TBD
 ***
 
 ## Usage
-TBD
+See example yaml file in docs.
 
 ## Contributing
 

@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 
+{% if zoom is not none %}
+    <style>
+        html { zoom: {{ zoom }} }
+    </style>
+{% endif %}
+
 <html lang="{{request.locale_name}}">
     <head>
         <meta charset="utf-8">

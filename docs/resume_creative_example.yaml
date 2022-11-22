@@ -1,0 +1,106 @@
+contact_info:
+  first_name: Marcus Tullius
+  last_name: Cicero
+  email: Cicero@loremipsum.com
+  phone: 555.867.5309
+  linkedin: https://linkedin.com/in/CICERO
+  github: https://github.com/CICERO
+
+executive_summary: Roman statesman, lawyer, scholar, philosopher, and academic skeptic, who upheld optimate 
+  principles during the political crises that led to the establishment of the Roman Empire. Extensive writings include 
+  treatises on rhetoric, philosophy and politics, and considered one of Rome's greatest orators and prose stylists. 
+  Comes from a wealthy municipal family of the Roman equestrian order, and served as consul in 63 BC.
+
+qualifications:
+  - name: Python
+    icon: devicon-python-plain
+  - name: Django
+    icon: devicon-django-plain
+  - name: FastAPI
+    icon: devicon-fastapi-plain
+  - name: LabVIEW
+    icon: devicon-labview-plain
+  - name: Embedded
+    icon: devicon-embeddedc-plain
+  - name: C++
+    icon: devicon-cplusplus-plain
+  - name: C#
+    icon: devicon-csharp-plain
+  - name: Assembly
+    icon: devicon-custom-asm-plain
+  - name: Java
+    icon: devicon-java-plain
+  - name: React
+    icon: devicon-react-original
+  - name: D3.js
+    icon: devicon-d3js-plain
+  - name: Swift
+    icon: devicon-swift-plain
+  - name: MySQL
+    icon: devicon-mysql-plain
+  - name: Postgres
+    icon: devicon-postgresql-plain
+  - name: Apache
+    icon: devicon-apache-line
+  - name: NGINX
+    icon: devicon-nginx-original
+  - name: AWS
+    icon: devicon-amazonwebservices-plain
+  - name: Kafka
+    icon: devicon-apachekafka-original
+  - name: Docker
+    icon: devicon-docker-plain
+
+positions:
+  - title: Consul
+    employer: Roman Republic
+    description: The second-highest level of the cursus honorum after that of the censor. Serve jointly for a one-year 
+      term. Holding fasces each month. Imperium extended over Rome and all its provinces.
+    date:
+      end: 51 BC
+      start: 63 BC
+    bullets:
+    - Create a check on the power of any individual citizen in accordance with the republican belief
+    - Suppressed the revolt by summarily and controversially executing five conspirators without trial
+    - Championed a return to the traditional republican government
+    - Proscribed as an enemy of the state by the Second Triumvirate
+
+  - title: Governor of Cilicia
+    employer: Cicilia Government
+    description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec
+      ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.
+    date:
+      end: 50 BC
+      start: 51 BC
+    bullets:
+      - Fusce nec tellus sed augue semper porta
+      - Mauris massa
+      - Vestibulum lacinia arcu eget nulla
+      - text: "Sed cursus ante dapibus diam"
+        url: https://en.wikipedia.org/wiki/Cicero
+
+  - title: Lawyer
+    employer: Cicilia Government
+    description: Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. 
+      Ut ultrices ultrices enim.
+    date:
+      end: 55 BC
+      start: 60 BC
+    bullets:
+    - Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis
+    - Nunc feugiat mi a tellus consequat imperdiet
+    - Suspendisse in justo eu magna luctus suscipit
+    - Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam
+    - Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui
+    - In vel mi sit amet augue congue elementum
+
+educations:
+  - degree_concentration: Latin
+    degree_date: 82 BC
+    degree_name: Western Philosophy
+    institution_city: Rome
+    institution_name: Academic Skepticism
+    institution_state: Lazio
+    institution_url: https://www.AcademicSkepticism.edu
+
+zoom: 97%

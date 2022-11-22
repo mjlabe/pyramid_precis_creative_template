@@ -1,12 +1,12 @@
-<section class="pb-2 pl-3 pr-3 pt-0 pl-lg-5 pr-lg-5 d-flex d-column mt-0" id="about">
+<div class="p-0 m-0">
+    <h1 class="m-0 pb-1">{{ contact_info.first_name }}
+        <span class="text-primary">{{ contact_info.last_name }}</span>
+    </h1>
+</div>
+<section class="pb-2 pl-3 pr-3 pt-0 d-flex d-column mt-0" id="about">
     <div class="row">
-        <div class="col p-0 pt-3 pb-3">
-            <h1 class="mb-3">{{ contact_info.first_name }}
-                <span class="text-primary">{{ contact_info.last_name }}</span>
-            </h1>
-        </div>
-        <div class="col-3 p-0 pt-2">
-            <div class="mt-1 ml-3 float-right pb-3">
+        <div class="col p-0 pt-1">
+            <div class="m-0 p-0">
                 <div style="font-size: 1.25rem;">
                     <a style="text-decoration: none;" href="mailto:{{ contact_info.email }}">
                         <i class="fas fa-envelope mr-2 mt-1 text-right"></i>
@@ -21,8 +21,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-5 p-0 pt-2">
-            <div class="mt-1 ml-3 float-right pb-3">
+        <div class="col p-0 pt-1">
+            <div class="mt-0 p-0">
                 {% if contact_info.linkedin %}
                 <div style="font-size: 1.25rem;">
                     <a style="text-decoration: none;" href="{{ contact_info.linkedin }}">
@@ -41,7 +41,7 @@
                 {% endif %}
             </div>
         </div>
-        <p class="mb-1" style="text-align: justify; text-justify: inter-word;">
+        <p class="mb-1 pt-2" style="text-align: justify; text-justify: inter-word;">
             {{ executive_summary }}
         </p>
     </div>

@@ -56,3 +56,4 @@ class Resume(YamlModel):
     qualifications: Union[Dict[str, List[str]], List[Dict]]
     positions: List[Position]
     educations: List[Education]
+    zoom: Optional[str]
