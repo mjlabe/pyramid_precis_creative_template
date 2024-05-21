@@ -7,13 +7,13 @@
     <div class="row">
         <div class="col p-0 pt-1">
             <div class="m-0 p-0">
-                <div style="font-size: 1.25rem;">
+                <div style="font-size: 1rem;">
                     <a style="text-decoration: none;" href="mailto:{{ contact_info.email }}">
                         <i class="fas fa-envelope mr-2 mt-1 text-right"></i>
                         <span class="text-right">{{ contact_info.email }}</span>
                     </a>
                 </div>
-                <div style="font-size: 1.25rem;">
+                <div style="font-size: 1rem;">
                     <a style="text-decoration: none;" href="tel:{{ contact_info.phone }}">
                         <i class="fa fa-phone mr-2 mt-1 text-right"></i>
                         <span class="text-right">{{ contact_info.phone }}</span>
@@ -24,7 +24,7 @@
         <div class="col p-0 pt-1">
             <div class="mt-0 p-0">
                 {% if contact_info.linkedin %}
-                <div style="font-size: 1.25rem;">
+                <div style="font-size: 1rem;">
                     <a style="text-decoration: none;" href="{{ contact_info.linkedin }}">
                         <i class="fab fa-linkedin mr-2 mt-1 text-right"></i>
                         <span class="text-right">{{ contact_info.linkedin_short }}</span>
@@ -32,7 +32,7 @@
                     {% endif %}
                 </div>
                 {% if contact_info.github %}
-                <div style="font-size: 1.25rem;">
+                <div style="font-size: 1rem;">
                     <a style="text-decoration: none;" href="{{ contact_info.github }}">
                         <i class="fab fa-github mr-2 mt-1" style="font-size: 1rem"></i>
                         <span class="text-right">{{ contact_info.github_short }}</span>
